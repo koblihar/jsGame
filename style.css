@@ -1,0 +1,115 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* allPage */
+.allPage{
+    background: linear-gradient(rgb(64, 64, 255), rgb(240, 0, 80));
+    height: 100vh;
+    position: relative;
+}
+
+/*playground*/
+.playground {
+    width: 80%;
+    height: 80%;
+    background: rgb(230, 2, 2);
+    position: absolute;
+    top: 10%; left: 10%;
+    border-radius: 5px;
+}
+
+/*total score*/
+.totalScore{
+    font-size: 30px;
+    color: rgb(31, 24, 24);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.totalScore p:nth-of-type(2){
+    font-size: 40px;
+    text-align: center;
+}
+
+.totalScore0 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+.totalScore1{
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+
+/* Current score */
+.currentScore{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(158, 28, 5);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.currentScore p:nth-child(2){
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.currentScore0{
+    position: absolute;
+    top: 40%;
+    left: 12%;
+}
+
+.currentScore1{
+    position: absolute;
+    top: 40%;
+    right: 15%;
+}
+
+/* Buttons*/
+.middleText{
+    position:absolute;
+    top: 70%;
+    left: 40.8%;
+    text-align: top;
+    font-size: 25px;
+    
+    /* style pro necopyable text */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.btn{
+    border: 2px solid rgb(39, 28, 28);
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.btn:hover{
+    background-color: rgb(158, 28, 5);
+}
+
+/* Dice */
+.dice{
+    position: absolute;
+    top: 30%;
+    left: 42.5%;
+}
+
+.active{
+    color: rgb(255, 235, 235);
+}
